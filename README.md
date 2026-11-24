@@ -1,52 +1,69 @@
+# 💰 SmartSpend – Personal Finance Tracker & Analytics Dashboard
 
-# SmartSpend – Personal Finance Tracker
+SmartSpend is a Python-based personal finance management application that helps users track income, manage expenses, monitor monthly budgets, and analyze their financial activities through an interactive Streamlit dashboard.
 
-A Python-based personal finance management application with an interactive analytics dashboard.
+The application uses SQLite for persistent data storage, Pandas for financial data processing, and Plotly for interactive visualizations.
 
-## Technologies Used
+## 🚀 Features
 
-- Python
-- SQLite
-- Pandas
-- Streamlit
-- Plotly
+### 1. Transaction Management
+- Add income and expense transactions.
+- View transaction history.
+- Search transactions using transaction IDs.
+- Edit and delete existing transactions.
+- Filter transactions by type, category, and date.
+- Sort transactions by amount and date.
+- Import existing transaction records from JSON.
 
-## Features
+### 2. Financial Analytics
+- Calculate total income.
+- Calculate total expenses.
+- Monitor available balance.
+- Calculate savings percentage.
+- Analyze category-wise expenses.
+- Generate monthly financial summaries.
 
-- Add and manage income and expenses
-- View and search transactions
-- Edit and delete financial records
-- Store transactions using SQLite
-- Import transactions from JSON
-- Set monthly budgets by category
-- Calculate total income, expenses, balance and savings rate
-- Analyze category-wise expenses
-- View monthly financial summaries
-- Interactive dashboard with charts and visualizations
+### 3. Budget Management
+- Create monthly budgets for expense categories.
+- Update existing budgets.
+- Track spending against allocated budgets.
+- Calculate remaining budget and usage percentage.
+- Generate alerts when spending reaches 80% or exceeds 100% of a budget.
+- Delete saved budgets.
 
-## Project Status
+### 4. Interactive Dashboard
+- Financial overview with key metrics.
+- Date range filtering.
+- Transaction type and category filters.
+- Expense distribution donut chart.
+- Monthly income vs. expenses chart.
+- Monthly net savings trend.
+- Top five spending categories.
+- Category-wise budget progress.
+- Budget alerts and transaction history.
 
-Core application, database operations, budget management, financial analytics and dashboard development completed.
+## 🛠️ Technology Stack
 
-More documentation, screenshots and deployment details will be added.
+| Technology | Purpose |
+|---|---|
+| Python | Application development |
+| SQLite | Database management |
+| Pandas | Financial data analysis |
+| Streamlit | Interactive dashboard |
+| Plotly | Data visualization |
+| Git & GitHub | Version control and project hosting |
 
-## Installation
+## 📁 Project Structure
 
-Clone the repository:
-
-```bash
-git clone https://github.com/priya250104/SmartSpend.git
-cd SmartSpend
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the application using the appropriate entry-point script.
-
-## Author
-
-SmartSpend – Personal Finance Tracker & Analytics Dashboard
+```text
+SmartSpend/
+│
+├── app.py
+├── dashboard.py
+├── storage.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+│
+├── database/
+│
