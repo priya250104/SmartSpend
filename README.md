@@ -1,5 +1,11 @@
 # 💰 SmartSpend – Personal Finance Tracker & Analytics Dashboard
 
+## Dashboard Preview
+
+The SmartSpend dashboard provides an interactive overview of personal finances, including income, expenses, savings, spending patterns and monthly budget tracking.
+
+![SmartSpend Dashboard](screenshots/dashboard.png)
+
 SmartSpend is a Python-based personal finance management application that helps users track income, manage expenses, monitor monthly budgets, and analyze their financial activities through an interactive Streamlit dashboard.
 
 The application uses SQLite for persistent data storage, Pandas for financial data processing, and Plotly for interactive visualizations.
