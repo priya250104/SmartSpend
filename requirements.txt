@@ -1,0 +1,7 @@
+
+# SmartSpend - Project Dependencies
+
+# Data analysis and financial calculations
+pandas
+streamlit
+plotly

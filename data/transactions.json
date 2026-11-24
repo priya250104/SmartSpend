@@ -1,0 +1,18 @@
+[
+    {
+        "id": "A12B34CD",
+        "type": "Income",
+        "amount": 20000.0,
+        "category": "Salary",
+        "description": "Monthly salary",
+        "date": "2026-11-24"
+    },
+    {
+        "id": "E45F67GH",
+        "type": "Expense",
+        "amount": 150.0,
+        "category": "Food",
+        "description": "Lunch",
+        "date": "2026-11-24"
+    }
+]
